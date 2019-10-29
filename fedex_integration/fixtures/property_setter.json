@@ -1102,7 +1102,7 @@
   "name": "Sales Invoice-naming_series-options", 
   "property": "options", 
   "property_type": "Text", 
-  "value": "SINV-\nSINV-RET-"
+  "value": "ACC-SINV-.YYYY.-\nACC-SINV-RET-.YYYY.-"
  }, 
  {
   "_assign": null, 
@@ -1221,7 +1221,7 @@
   "name": "Stock Entry-naming_series-options", 
   "property": "options", 
   "property_type": "Text", 
-  "value": "STE-"
+  "value": "MAT-STE-.YYYY.-"
  }, 
  {
   "_assign": null, 
@@ -1279,7 +1279,7 @@
   "_comments": null, 
   "_liked_by": null, 
   "_user_tags": null, 
-  "default_value": null, 
+  "default_value": "1",
   "doc_type": "Packing Slip", 
   "docstatus": 0, 
   "doctype": "Property Setter", 
@@ -1289,7 +1289,7 @@
   "name": "Packing Slip-naming_series-hidden", 
   "property": "hidden", 
   "property_type": "Check", 
-  "value": "1"
+  "value": null
  }, 
  {
   "_assign": null, 
@@ -1306,7 +1306,7 @@
   "name": "Packing Slip-naming_series-default", 
   "property": "default", 
   "property_type": "Text", 
-  "value": "PS-"
+  "value": "MAT-PAC-.YYYY.-"
  }, 
  {
   "_assign": null, 
